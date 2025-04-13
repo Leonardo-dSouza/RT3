@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",  // Pode ser "ES6" ou "ESNext", dependendo da versão do Node.js que você está utilizando
+    "module": "ESNext",  // Alterado para ESNext
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "out/",
+    "moduleResolution": "node",
+    "noImplicitAny": false
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
